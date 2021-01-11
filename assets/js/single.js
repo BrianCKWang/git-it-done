@@ -1,6 +1,5 @@
 var issueContainerEl = document.querySelector("#issues-container");
 var limitWarningEl = document.querySelector("#limit-warning");
-var queryString = document.location.search;
 var repoNameEl = document.querySelector("#repo-name");
 
 var getRepoIssues = function(repo) {
@@ -86,6 +85,8 @@ var getRepoName = function() {
         document.location.replace("./index.html");
     }
 }
+
+
 
 // getRepoIssues("facebook/react");
 // getRepoIssues("brianckwang/git-it-done");
